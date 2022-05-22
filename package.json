@@ -1,5 +1,5 @@
 {
-  "name": "@marcoguidara/tailwind-quick-center",
+  "name": "@marcoguidara/tailwindcss-quick-center",
   "version": "0.1.0",
   "description": "A plugin that provides utilities for centering an element on x/y axis.",
   "main": "index.js",
@@ -19,12 +19,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/marcoguidara/tailwind-quick-center.git"
+    "url": "git+https://github.com/marcoguidara/tailwindcss-quick-center.git"
   },
   "bugs": {
-    "url": "https://github.com/marcoguidara/tailwind-quick-center/issues"
+    "url": "https://github.com/marcoguidara/tailwindcss-quick-center/issues"
   },
-  "homepage": "https://github.com/marcoguidara/tailwind-quick-center#readme",
+  "homepage": "https://github.com/marcoguidara/tailwindcss-quick-center#readme",
   "keywords": [
     "create-tailwind-plugin",
     "tailwind-css-plugin",

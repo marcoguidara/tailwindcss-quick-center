@@ -5,7 +5,7 @@
 ## Install the plugin from npm:
 
 ```
-$ npm install tailwind-quick-center
+$ npm install tailwindcss-quick-center
 ```
 
 ## Then add the plugin to your `tailwind.config.js` file:
@@ -15,7 +15,7 @@ $ npm install tailwind-quick-center
 module.exports = {
   plugins: [
 
-    require('tailwind-quick-center'),
+    require("@marcoguidara/tailwindcss-quick-center"),
 
   ],
 };
