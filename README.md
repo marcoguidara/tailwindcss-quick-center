@@ -11,7 +11,7 @@ Dedicated centering classes that cover the most common situations.
 ## Install the plugin from npm:
 
 ```
-$ npm install tailwindcss-quick-center
+$ npm i @marcoguidara/tailwindcss-quick-center
 ```
 
 ## Then add the plugin to your `tailwind.config.js` file:
