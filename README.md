@@ -1,16 +1,13 @@
 # Tailwind Quick Center
 
 > A plugin that provides utilities for centering an element on x/y axis.
-<br/>
-<br/>
+
 ## The problem 🤔
 Centering an element using Tailwindcss classes can rapidly become verbose.
-<br/>
-<br/>
+
 ## The solution 🚀
 Dedicated centering classes that cover the most common situations.
-<br/>
-<br/>
+
 ## Install the plugin from npm:
 
 ```
