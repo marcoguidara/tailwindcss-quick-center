@@ -24,7 +24,7 @@ module.exports = {
 ```
 
 ## Usage:
-### Centered on both x and y axis
+### Center on both x and y axis
 ```html
 <div class="relative">
   <div class="center-absolute">
@@ -39,7 +39,7 @@ module.exports = {
 </div>
 ```
 
-### Centered on the x axis
+### Center on the x axis
 ```html
 <div class="relative">
   <div class="center-absolute-x">
@@ -54,7 +54,7 @@ module.exports = {
 </div>
 ```
 
-### Centered on the y axis
+### Center on the y axis
 ```html
 <div class="relative">
   <div class="center-absolute-y">
