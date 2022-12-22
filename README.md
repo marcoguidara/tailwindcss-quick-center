@@ -3,9 +3,11 @@
 > A plugin that provides utilities for centering an element on x/y axis.
 
 ## The problem 🤔
+
 Centering an element using Tailwindcss classes can rapidly become verbose.
 
 ## The solution 🚀
+
 Dedicated centering classes at component layer that cover the most common situations.
 
 ## Install the plugin from npm:
@@ -24,7 +26,9 @@ module.exports = {
 ```
 
 ## Usage:
+
 ### Center on both x and y axis
+
 ```html
 <div class="relative">
   <div class="center-absolute">
@@ -40,6 +44,7 @@ module.exports = {
 ```
 
 ### Center on the x axis
+
 ```html
 <div class="relative">
   <div class="center-absolute-x">
@@ -55,6 +60,7 @@ module.exports = {
 ```
 
 ### Center on the y axis
+
 ```html
 <div class="relative">
   <div class="center-absolute-y">
@@ -69,7 +75,7 @@ module.exports = {
 </div>
 ```
 
-## Add variants: 
+## Add variants:
 
 ```js
 // tailwind.config.js
