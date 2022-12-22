@@ -6,7 +6,7 @@
 Centering an element using Tailwindcss classes can rapidly become verbose.
 
 ## The solution 🚀
-Dedicated centering classes that cover the most common situations.
+Dedicated centering classes at component layer that cover the most common situations.
 
 ## Install the plugin from npm:
 

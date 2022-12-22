@@ -1,7 +1,7 @@
 const plugin = require('tailwindcss/plugin');
 
 module.exports = plugin(
-  function ({ addUtilities, theme, variants }) {
+  function ({ addComponents, theme }) {
     // If your plugin requires user config,
     // you can access these options here.
     // Docs: https://tailwindcss.com/docs/plugins#exposing-options
@@ -9,7 +9,7 @@ module.exports = plugin(
 
     // Add CSS-in-JS syntax to create utility classes.
     // Docs: https://tailwindcss.com/docs/plugins#adding-utilities
-    const utilities = {
+    const components = {
       '.center-absolute-y': {
         position: 'absolute',
         top: '50%',
@@ -46,14 +46,12 @@ module.exports = plugin(
 
     // Conditionally add utility class based on user configuration.
     if (options.YOUR_PLUGIN_CUSTOM_OPTION) {
-      utilities['.custom-utility-class'] = {
+      components['.custom-utility-class'] = {
         'background-color': 'red',
       };
     }
 
-    addUtilities(utilities, {
-      variants: variants('quickCenter'),
-    });
+    addComponents(components);
   },
   {
     theme: {
