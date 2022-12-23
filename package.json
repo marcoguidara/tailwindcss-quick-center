@@ -1,6 +1,6 @@
 {
   "name": "@marcoguidara/tailwindcss-quick-center",
-  "version": "1.0.3",
+  "version": "1.1.1",
   "description": "A plugin that provides utilities for centering an element on x/y axis.",
   "main": "index.js",
   "scripts": {
